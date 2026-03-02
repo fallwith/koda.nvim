@@ -3,9 +3,27 @@
   <p>Code's quiet companion</p>
     <p>A minimalist theme for <a href="https://github.com/neovim/neovim">Neovim</a>, written in Lua</p>
 </div>
+<img src="https://github.com/user-attachments/assets/7a42056d-c0ff-4df9-8ed5-eea39f5b7619#.png" width="1509" height="1186" alt="koda"  />
 
-<img src="https://github.com/user-attachments/assets/83d691e6-d22c-4ce4-b07c-43fc7607b3a6#.png" width="1054" alt="Koda Dark Preview"  />
-<img src="https://github.com/user-attachments/assets/ecac3372-62bd-4de3-8dc1-1d4febb9f0d1#.png" width="1054" alt="Koda Light Preview"  />
+## Previews
+
+<details>
+<summary>Dark</summary>
+<img src="https://github.com/user-attachments/assets/747e4c95-1215-43c6-ae4a-72298edea919"/>
+</details>
+<details>
+<summary>Light</summary>
+<img src="https://github.com/user-attachments/assets/1be34f5b-2e5c-4c50-908f-30969b19d551"/>
+</details>
+<details>
+<summary>Moss</summary>
+<img src="https://github.com/user-attachments/assets/6fec3064-d1c1-4969-8e16-998bde838a1f"/>
+</details>
+<details>
+<summary>Glade</summary>
+<img src="https://github.com/user-attachments/assets/3d129c05-5deb-40a8-bda2-9e15ae929cf6" />
+</details>
+
 
 ## Features
 

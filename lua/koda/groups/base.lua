@@ -1,4 +1,4 @@
-local utils = require("koda.utils")
+local Utils = require("koda.utils")
 
 local M = {}
 
@@ -48,10 +48,10 @@ function M.get_hl(c, opts)
     qfLineNr          = { fg = c.comment },
     TabLineSel        = { fg = c.emphasis, bg = c.line },
     Title             = { fg = c.emphasis, bold = true },
-    DiffAdd           = { fg = c.success, bg = utils.blend(c.success, c.bg, 0.2) },
-    DiffChange        = { fg = c.warning, bg = utils.blend(c.warning, c.bg, 0.2) },
-    DiffDelete        = { fg = c.danger, bg = utils.blend(c.danger, c.bg, 0.2) },
-    DiffText          = { fg = c.warning, bg = utils.blend(c.warning, c.bg, 0.4) },
+    DiffAdd           = { fg = c.success, bg = Utils.blend(c.success, c.bg, 0.2) },
+    DiffChange        = { fg = c.warning, bg = Utils.blend(c.warning, c.bg, 0.2) },
+    DiffDelete        = { fg = c.danger, bg = Utils.blend(c.danger, c.bg, 0.2) },
+    DiffText          = { fg = c.warning, bg = Utils.blend(c.warning, c.bg, 0.4) },
   }
 end
 

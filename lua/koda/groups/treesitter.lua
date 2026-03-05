@@ -2,7 +2,7 @@ local M = {}
 
 --- Get Treesitter highlight groups, see `:h treesitter-highlight`
 ---@type koda.HighlightsFn
-function M.get_hl(c, opts)
+function M.get_hl(c)
   -- stylua: ignore
   return {
     ["@variable"]                      = { link = "Identifier" },

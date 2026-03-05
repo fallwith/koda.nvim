@@ -1,10 +1,10 @@
-local utils = require("koda.utils")
+local Utils = require("koda.utils")
 
 local M = {}
 
 ---@type koda.HighlightsFn
 function M.get_hl(c)
-  local h1 = utils.blend(c.fg, c.bg, 0.1)
+  local h1 = Utils.blend(c.fg, c.bg, 0.1)
   -- stylua: ignore
   return {
     RenderMarkdownCode = { bg = c.dim },

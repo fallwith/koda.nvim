@@ -1,4 +1,5 @@
 local M = {}
+
 M.cache = {}
 
 --- Reads the given file and returns its contents

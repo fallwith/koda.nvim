@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.8.2](https://github.com/oskarnurm/koda.nvim/compare/v2.8.1...v2.8.2) (2026-03-07)
+
+
+### Bug Fixes
+
+* **utils:** fix reload to respect variant and user configuration ([1211e18](https://github.com/oskarnurm/koda.nvim/commit/1211e18d4a200744398a19d560ba010f7fe664c1))
+
 ## [2.8.1](https://github.com/oskarnurm/koda.nvim/compare/v2.8.0...v2.8.1) (2026-03-05)
 
 

@@ -17,7 +17,7 @@ function M.get_hl(c, opts)
     CursorColumn      = { bg = c.line },
     CursorLine        = { bg = c.line },
     ColorColumn       = { bg = c.line },
-    CursorLineNr      = { fg = c.border, bold = true },
+    CursorLineNr      = { fg = c.special, bold = true },
     LineNr            = { fg = c.comment },
     StatusLine        = { fg = c.fg, bg = opts.transparent and "none" or c.line },
     StatusLineNC      = { link = "Normal" },

@@ -20,7 +20,7 @@ function M.get_hl(c, opts)
     CursorLineNr      = { fg = c.special, bold = true },
     LineNr            = { fg = c.comment },
     StatusLine        = { fg = c.fg, bg = opts.transparent and "none" or c.line },
-    StatusLineNC      = { link = "Normal" },
+    StatusLineNC      = { fg = c.comment, bg = opts.transparent and "none" or c.line },
     StatusLineTerm    = { link = "StatusLine" },
     StatusLineTermNC  = { link = "StatusLineNC" },
     WinBar            = { link = "Normal" },
